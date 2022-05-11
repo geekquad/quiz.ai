@@ -1,0 +1,147 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1,h2,h3,h4{
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 700;
+    margin-top:1.5rem;
+}
+h1{
+font-size:50px;
+}
+h2{
+    font-size:32px;
+}
+a{
+    text-decoration: none;
+}
+
+p{
+color:#606368;
+font-size: 18px;
+font-weight: 500;
+line-height: 28px;
+}
+
+.top{
+    margin-top:1rem;
+    display:flex;
+    justify-content: space-between;
+}
+
+.btn-primary{
+    margin-top:2rem;
+    background-color: #882DFF;
+}
+.lgn-btn:hover{
+    background-color: #882DFF;
+}
+
+.mid{
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.mid-para{
+    max-width:35rem;
+    margin: 1.5rem auto;
+    text-align: center;
+    
+}
+.bottom{
+    text-align: center;
+    margin-top: 3rem;
+}
+.bottom-para{
+    margin:1.5rem auto;
+    max-width:60rem;
+}
+.lower{
+    margin-top:2rem;
+    margin-bottom:10rem;
+}
+.lower p{
+    margin-top:1.5rem;
+    max-width:50%;
+    display:inline-block;
+
+}
+.left{
+    text-align:left;
+}
+.right{
+    text-align: justify; 
+    justify-content: right;
+  text-align: right;
+}
+.btn-block{
+    min-width:32rem;
+    background-color: #ffffff;
+    color:#000000;
+}
+.btn-block:hover{
+    background-color: #882DFF;
+    color:#ffffff;
+}
+.btn-login{
+    margin-top:4rem;
+}
+.hero-img{
+    height:645px;
+    width:490px;
+}
+.login-body{
+    padding-left:2rem;
+    background-color: #E5E5E5;
+}
+
+.signup-hero-img{
+    height:656px;
+}
+
+/* login page container*/
+
+/* .login-body{
+    background-color:#D8D8D8;
+}
+
+.container-login{
+display:flex;
+align-items: center;
+text-align: center;
+margin:4rem auto;
+
+}
+.login{
+    background-color: #E5E5E5;
+    min-height: 35rem;
+}
+.login h2{
+margin:3rem 2rem 2rem 2rem;
+text-align: left;
+}
+.login p{
+    margin-left:2rem;
+    max-width: 25rem;
+    text-align: left;
+}
+
+.login-btn{
+    display:block;
+    text-align: center;
+
+}
+.login-btns{
+    
+margin:4rem 2rem;
+text-align: center;
+
+} */
+
+.vh-100{
+    background-color: #D8D8D8;
+}
+.content{
+    text-align:center;
+}
