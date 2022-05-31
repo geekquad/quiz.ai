@@ -99,12 +99,15 @@ $ python app.py
   > **Note**: Support for modern mobile browsers is experimental. The website is not responsive in mobile devices until now.
 
 
-## Publication:
+## Cite This Article
 
-Our Research Paper has been published in the Journal of Emerging Technologies and Innovative Research - An International Open Access, Peer-reviewed, Refereed Journal|  ISSN: 2349-5162 with an Impact factor of 7.95 Calculate by Google and Semantic Scholar. The Journal is UGC Approved with Journal No 63975.
+```
+"An Encrypted Automatic Multiple-Choice Question Generator for Self-Assessment Using Natural Language Processing", 
+International Journal of Emerging Technologies and Innovative Research (www.jetir.org | UGC and issn Approved), 
+ISSN:2349-5162, Vol.9, Issue 5, page no. ppj337-j343, May-2022, 
 
-Link to our Published paper: https://www.jetir.org/papers/JETIR2205A45.pdf
-
+Available at : http://www.jetir.org/papers/JETIR2205A45.pdf
+```
 
 
 ## Team:
