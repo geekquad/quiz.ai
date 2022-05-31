@@ -1,13 +1,13 @@
-# MLH Quizzet
+# Quiz.ai
 
 This is a smart Quiz Generator that generates a dynamic quiz from any uploaded text/PDF document using NLP. This can be used for self-analysis, question paper generation, and evaluation, thus reducing human effort.
 
-[![Forks](https://img.shields.io/github/forks/PragatiVerma18/Fantastic-Falcons-1.0?style=social)](https://github.com/PragatiVerma18/Fantastic-Falcons-1.0/network/members)
-[![Stars](https://img.shields.io/github/stars/PragatiVerma18/Fantastic-Falcons-1.0?style=social)](https://github.com/PragatiVerma18/Fantastic-Falcons-1.0/stargazers)
-[![Watchers](https://img.shields.io/github/watchers/PragatiVerma18/Fantastic-Falcons-1.0?style=social)](https://github.com/PragatiVerma18/Fantastic-Falcons-1.0/watchers)
-[![PRs](https://img.shields.io/github/issues-pr/PragatiVerma18/Fantastic-Falcons-1.0)](https://github.com/PragatiVerma18/Fantastic-Falcons-1.0/pulls)
-[![Issues](https://img.shields.io/github/issues/PragatiVerma18/Fantastic-Falcons-1.0)](https://github.com/PragatiVerma18/Fantastic-Falcons-1.0/issues)
-[![License](https://img.shields.io/github/license/PragatiVerma18/Fantastic-Falcons-1.0)](https://github.com/PragatiVerma18/Fantastic-Falcons-1.0/blob/master/LICENSE)
+[![Forks](https://img.shields.io/github/forks/geekquad/quiz.ai?style=social)](https://github.com/geekquad/quiz.ai/network/members)
+[![Stars](https://img.shields.io/github/stars/geekquad/quiz.ai?style=social)](https://github.com/geekquad/quiz.ai/stargazers)
+[![Watchers](https://img.shields.io/github/watchers/geekquad/quiz.ai?style=social)](https://github.com/geekquad/quiz.ai/watchers)
+[![PRs](https://img.shields.io/github/issues-pr/geekquad/quiz.ai)](https://github.com/geekquad/quiz.ai/pulls)
+[![Issues](https://img.shields.io/github/issues/geekquad/quiz.ai)](https://github.com/geekquad/quiz.ai/issues)
+[![License](https://img.shields.io/github/license/geekquad/quiz.ai)](https://github.com/geekquad/quiz.ai/blob/master/LICENSE)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/PragatiVerma18/Fantastic-Falcons-1.0/graphs/commit-activity)
 [![Open Source? Yes!](https://badgen.net/badge/Open%20Source%20%3F/Yes%21/blue?icon=github)](https://github.com/PragatiVerma18/Fantastic-Falcons-1.0/)
 
@@ -17,16 +17,26 @@ This is a smart Quiz Generator that generates a dynamic quiz from any uploaded t
   > **Automatic question generation (AQG)** is concerned with the construction of algorithms for producing questions from knowledge sources, which can be either structured (e.g. knowledge bases (KBs) or unstructured (e.g. text))
 - helps in **resource saving**(time, money and human effort)
 - enables the **enrichment of the teaching** process, adapt learning to student knowledge and needs, as well as drill and practice exercises
-- presents an _automatic mechanism_ to assemble exams or to adaptively select questions from a question bank
+- presents an _automatic mechanism_ to assemble exams or to adaptively select questions from a question bank.
+
+## Theme
+
+The theme of our project idea is Security and Productivity. We are reducing the manual efforts and thus increasing the productivity of the teachers. This will help in removing the Distraction of Questions making and reducing the labor to go through the text to generate questions thereby helping the teachers to focus on other necessary things.
+
+Quiz.ai also fits into the current online education scenario where most of the classes take place over online platforms like Google Meet and Zoom. We help students with quick MCQs that help them to revise and memorize the concepts better.
+
 
 ## WorkFlow
-![workflow](https://user-images.githubusercontent.com/42115530/95686207-1111e300-0c1a-11eb-993a-766967b91c92.png)
+![workflow](https://github.com/geekquad/quiz.ai/blob/main/static/Flow.jpg)
 
-## Demo Video
-<a href="https://youtu.be/74RrpcO89E0" target="_blank" rel="noopener">
-  <img src="https://user-images.githubusercontent.com/42115530/95742312-6c40e580-0cad-11eb-89a5-c2ee099bf8d7.png" alt="MLH-Quizzet"
-	title="MLH-Quizzet" width="400px" />
-</a>
+## Flowchart
+![Flowchart](https://github.com/geekquad/quiz.ai/blob/main/static/AQG.jpg)
+
+## Simplified UserFlow
+
+![Simplified](https://github.com/geekquad/quiz.ai/blob/main/static/userflow.jpg)
+
+
 
 ## Technology Stack:
 
@@ -36,36 +46,23 @@ This is a smart Quiz Generator that generates a dynamic quiz from any uploaded t
 - **Frontend**: HTML, CSS, Vanilla JS
 - **Backend**: Flask
 - **IDE**: VS Code
-- **Design**: Canva
+- **Design**: Illustrator, Figma, Zeplin, Framer
 - **Version Control**: Git and GitHub
-- **Database**: Sqllite3
+- **Database**: Firebase
 
 ## How to Get Started?
 
 [![Requirements Up To Date](https://img.shields.io/badge/requirements-up%20to%20date-brightgreen)](https://github.com/PragatiVerma18/Fantastic-Falcons-1.0/blob/webapp/requirements.txt)
 [![Python](https://img.shields.io/badge/python-v3.7-blue)](https://www.python.org/)
 
-### GitHub Repository Structure
-
-| S.No. | Branch Name                                                                   | Purpose                            |
-| ----- | ----------------------------------------------------------------------------- | ---------------------------------- |
-| 1.    | [master](https://github.com/PragatiVerma18/Fantastic-Falcons-1.0/tree/master) | contains the main code             |
-| 2.    | [nlp](https://github.com/PragatiVerma18/Fantastic-Falcons-1.0/tree/nlp)       | contains all machine learning code |
-| 3.    | [webapp](https://github.com/PragatiVerma18/Fantastic-Falcons-1.0/tree/webapp) | contains all frontend/backend code |
 
 ### Setup
 
 - Fork and Clone the repo using
 
 ```
-$ git clone https://github.com/PragatiVerma18/Fantastic-Falcons-1.0.git
-$ cd Fantastic-Falcons-1.0
-```
-
-- Change Branch to `webapp` using
-
-```
-$ git checkout webapp
+$ git clone https://github.com/geekquad/quiz.ai.git
+$ cd quiz.ai
 ```
 
 - Setup Virtual environment
@@ -101,27 +98,29 @@ $ python app.py
 - **Opera**: version 9 and up
   > **Note**: Support for modern mobile browsers is experimental. The website is not responsive in mobile devices until now.
 
-## MLH Fellowship( Fall 2020)
 
-> This is a hackathon project made by MLH Fellows(Fall 2020) - Pod 1.0.0 i.e. Fantastic Falcons
+## Publication:
 
-[![MLH Fellowship](https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/challenge_photos/001/113/145/datas/original.jpg)](https://github.com/MLH-Fellowship)
+Our Research Paper has been published in the Journal of Emerging Technologies and Innovative Research - An International Open Access, Peer-reviewed, Refereed Journal|  ISSN: 2349-5162 with an Impact factor of 7.95 Calculate by Google and Semantic Scholar. The Journal is UGC Approved with Journal No 63975.
+
+Link to our Published paper: https://www.jetir.org/papers/JETIR2205A45.pdf
+
+
 
 ## Team:
 
-> "Alone we can do so little; together we can do so much."
 
 | S.No. | Name               | Role               | GitHub Username:octocat:                             |
 | ----- | ------------------ | ------------------ | ---------------------------------------------------- |
-| 1.    | Pragati Verma      | Frontend Developer | [@PragatiVerma18](https://github.com/PragatiVerma18) |
-| 2.    | Kshitij Kotasthane | Backend Developer  | [@kshitij86](https://github.com/kshitij86)           |
-| 3.    | Vignesh S          | ML                 | [@telescopic](https://github.com/telescopic)         |
+| 1.    | Arpita Verma      | Frontend Developer | [@ArpitaV13](https://github.com/ArpitaV13) |
+| 2.    | Aditya Kumar Gupta | ML    | [@geekquad](https://github.com/geekquad)           |
+| 3.    | Devansh Chaudhary        |     UI/UX           | [@rex12543](https://github.com/rex12543)         |
 
 
 <br>
 <br>
 
-![Fantastic Falcons](https://user-images.githubusercontent.com/42115530/95672625-0aef1880-0bc0-11eb-8db6-90f6e16af2c0.gif)
+
 
 ## Contributors ✨
 
@@ -130,13 +129,17 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
+
 <table>
   <tbody><tr>
-    <td align="center"><a href="https://www.linkedin.com/in/PragatiVerma18/"><img alt="" src="https://avatars2.githubusercontent.com/u/42115530?v=4" width="100px;"><br><sub><b>Pragati Verma</b></sub></a><br><a href="https://github.com/PragatiVerma18/Fantastic-Falcons-1.0/commits?author=PragatiVerma18" title="Code">💻</a></td>
-    <td align="center"><a href="https://kshitij86.github.io/"><img alt="" src="https://avatars1.githubusercontent.com/u/26821140?s=460&u=c86d062a10d9d4495dd39c0ad4f8601ba256d670&v=4" width="100px;"><br><sub><b>Kshitij Kotasthane</b></sub></a><br><a href="https://github.com/PragatiVerma18/Fantastic-Falcons-1.0/commits?author=kshitij86" title="Code">💻</a></td>
-    <td align="center"><a href="https://github.com/telescopic"><img alt="" src="https://avatars1.githubusercontent.com/u/45061877?s=400&u=07ac89db20b5d84eb1abd4a0769b19d030f8ceb8&v=4" width="100px;"><br><sub><b>Vignesh S</b></sub></a><br><a href="https://github.com/PragatiVerma18/Fantastic-Falcons-1.0/commits?author=telescopic" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/geekquad"><img alt="" src="https://avatars.githubusercontent.com/geekquad" width="100px;"><br><sub><b>Aditya Kumar Gupta</b></sub></a><br><a href="https://github.com/geekquad/AlgoBook/commits?author=geekquad" title="Code">💻 🖋</a></td> </a></td>
+    <td align="center"><a href="https://github.com/major-beast"><img alt="" src="https://avatars.githubusercontent.com/ArpitaV13" width="100px;"><br><sub><b>Arpita Verma</b></sub></a><br><a href="https://github.com/geekquad/AlgoBook/commits?author=arpitaverma13" title="Code">💻 🖋</a></td></a></td>
+    <td align="center"><a href="https://github.com/major-beast"><img alt="" src="https://avatars.githubusercontent.com/rex12543" width="100px;"><br><sub><b>Devansh Chaudhary</b></sub></a><br><a href="https://github.com/geekquad/AlgoBook/commits?author=rex12345" title="Code">💻 🖋</a></td></a></td>
   </tr>
 </tbody></table>
+
+
+
 
 
 <!-- markdownlint-enable -->
