@@ -39,14 +39,14 @@
                     class="hero-img"
                     src="/static/images/login-hero.svg"
                     alt="login form"
-                    class="img-fluid"
+                    class="img-fluid mx-0"
                     style="border-radius: 1rem 0 0 1rem"
                   />
                 </div>
                 <div
-                  class="col-md-6 col-lg-7 d-flex align-items-center login-body"
+                  class="col-md-6 col-lg-7 d-flex align-items-center login-body px-3"
                 >
-                  <div class="card-body p-4 p-lg-5 text-black">
+                  <div class="card-body p-4 p-lg-3 text-black">
                     <div class="d-flex align-items-center mb-3 pb-1 pl-2">
                       <h2>Login</h2>
                     </div>
@@ -57,12 +57,12 @@
                     </p>
                     <form id="form" onsubmit="login(event)">
                       <div class="form-outline mb-4">
-                        <label class="form-label">Email address</label>
+                        <label class="form-label">Email</label>
                         <input
                           type="email"
                           id="email"
-                          class="form-control form-control-lg"
-                          placeholder="Enter email"
+                          class="form-control form-control-lg input"
+                          placeholder="Enter Email"
                         />
                       </div>
 
@@ -71,14 +71,15 @@
                         <input
                           type="password"
                           id="password"
-                          class="form-control form-control-lg"
-                          placeholder="********"
+                          class="form-control form-control-lg input"
+                          placeholder="Password"
                         />
                       </div>
                       <div class="pt-1 mb-2">
                         <button
-                          class="btn btn-lg btn-secondary btn-block"
+                          class="btn btn-lg w-100 text-white input"
                           type="submit"
+                          style="background-color: #882dff"
                         >
                           Login
                         </button>

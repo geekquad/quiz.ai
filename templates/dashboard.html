@@ -27,13 +27,14 @@
   <body>
     <div id="dash-main" class="container">
       <div class="sidebar">
-        <div class="container-sidebar">
-          <img src="/static/images/Logo-Alt.svg" alt="" />
+        <div class="">
+          <img src="/static/images/Logo-Alt.svg" alt="logo" class="img-fluid m-3 " />
+          <hr class="w-100 hr-top" />
           <div class="sidebar-menu">
             <ul>
-              <li><a href="/dashboard">Home</a></li>
-              <li><a href="">Settings</a></li>
-              <li><a href="" onclick="logout(event)">Logout</a></li>
+              <li class="list-class"><a class="a-class" href="/dashboard">Home</a></li>
+              <li class="list-class"><a class="a-class" href="">Settings</a></li>
+              <li class="list-class"><a class="a-class" href="" onclick="logout(event)">Logout</a></li>
             </ul>
           </div>
         </div>
@@ -44,7 +45,7 @@
         <div style="margin: 15%">
           <img src="/static/images/Paper Plus.svg" alt="" />
           <form
-            action="http://localhost:5000/quiz"
+            action="/quiz"
             method="POST"
             enctype="multipart/form-data"
           >

@@ -276,12 +276,21 @@ line-height: 28px;
     width:490px;
 }
 .login-body{
-    padding-left:2rem;
+    /* padding-left:2rem; */
     background-color: #E5E5E5;
 }
 
 .signup-hero-img{
     height:760px;
+}
+
+.input{
+  border-radius: 12px;
+  font-size: 18px;
+}
+
+label{
+  font-size: 20px;
 }
 
 /* login page container*/
@@ -319,13 +328,23 @@ text-align: center;
 
 .vh-100{
     background-color: #D8D8D8;
+    /* filter: blur(4px) */
 }
 .content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  justify-content: center;
     text-align:center;
+    /* position: fixed; */
+    /* width: calc(100% - 225px); */
+    margin-left: 225px;
+
 }
 
 .sidebar{
-    min-width:20rem;
+    /* min-width:20rem; */
     background-color: #F9F9F9;
     position: fixed;
     top: 0;
@@ -337,10 +356,26 @@ text-align: center;
     margin:1rem;
 }
 
-.sidebar-menu{
-    margin-top:4rem;
+.hr-top{
+    margin-top:5rem;
+    background-color: rgb(179, 170, 170);
 }
 
+.list-class{
+  margin-top: 10px;
+  padding: 10px 20px;
+  border-radius: 12px;
+}
+.a-class{
+  /* margin-top: 10px; */
+  padding: 10px 20px;
+  border-radius: 12px;
+  /* height: 20px; */
+}
+.a-class:hover{
+  color: white !important;
+  background-color: #882DFF;
+}
 
 /* html {
   box-sizing: border-box;
