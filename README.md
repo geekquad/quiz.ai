@@ -115,7 +115,7 @@ Available at : http://www.jetir.org/papers/JETIR2205A45.pdf
 
 | S.No. | Name               | Role               | GitHub Username:octocat:                             |
 | ----- | ------------------ | ------------------ | ---------------------------------------------------- |
-| 1.    | Arpita Verma      | Frontend Developer | [@ArpitaV13](https://github.com/ArpitaV13) |
+| 1.    | Arpita Verma      | Full Stack Developer | [@ArpitaV13](https://github.com/ArpitaV13) |
 | 2.    | Aditya Kumar Gupta | ML    | [@geekquad](https://github.com/geekquad)           |
 | 3.    | Devansh Chaudhary        |     UI/UX           | [@rex12543](https://github.com/rex12543)         |
 
